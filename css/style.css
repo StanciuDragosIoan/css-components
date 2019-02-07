@@ -49,11 +49,14 @@
 }
 
 #left{
-    margin-left:0;
+    margin-left:0rem;
+    background:red;
+     
 }
 
 #right{
-  position:absolute;
-  margin-top:0px;
-
+  position:relative;
+  background:blue;
+  margin-left:89%;
+  margin-right:0;
 }

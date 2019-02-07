@@ -1,7 +1,7 @@
 // tabs
 const tab_btn = document.querySelectorAll('.tab');
 const tabs = document.querySelectorAll('.tab-content');
-tabs[0].style.display = "block";
+
  
  
 
@@ -61,7 +61,8 @@ function switchTab(e){
 const hideTabs = ()=>{
     tabs.forEach(tab => {
         tab.style.display = "none";
-    });    
+    }); 
+   
 }
  
 
